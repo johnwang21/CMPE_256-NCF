@@ -14,3 +14,12 @@ train_streamID.csv is for prototyping only
 Almost all code runs exclusively on: meta_train.csv and meta_test.csv
 
 Note that NCF_meta is regularized and NCF_no_meta is not. This is because before regularization, meta data already beat unregularized data so I didnt bother to regularize the no meta as it would perform worse.
+
+References:
+1. Source of truth:
+https://arxiv.org/pdf/1708.05031.pdf
+https://github.com/hexiangnan/neural_collaborative_filtering/
+2. Training/Validation
+https://www.kaggle.com/code/chaitanya99/recommendation-system-cf-anime
+3. Embedding Layers
+https://www.kaggle.com/code/colinmorris/embedding-layers
