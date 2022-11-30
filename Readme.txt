@@ -1,4 +1,5 @@
 Everything runs on colab.
+USE TPU otherwise this will take EONS of GEOLOGICAL TIME
 
 Main examples are: 
 Twitch_NCF_meta.ipynb
