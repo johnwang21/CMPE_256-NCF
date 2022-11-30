@@ -1,0 +1,15 @@
+Everything runs on colab.
+
+Main examples are: 
+Twitch_NCF_meta.ipynb
+Twitch_NCF_no_meta.ipynb
+
+I've included a sample trained model with meta.
+
+####Notes
+Data is in the Data folder. Note that 100_a.csv is the original twitch data. Its used to create metadata
+train_streamID.csv is for prototyping only
+
+Almost all code runs exclusively on: meta_train.csv and meta_test.csv
+
+Note that NCF_meta is regularized and NCF_no_meta is not. This is because before regularization, meta data already beat unregularized data so I didnt bother to regularize the no meta as it would perform worse.
